@@ -5,4 +5,4 @@
 
 ![dorapocket's github stats](https://github-readme-stats.vercel.app/api?username=dorapocket&show_icons=true)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dorapocket&layout=compact)](https://github.com/zh-Spike/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dorapocket&hide=php&layout=compact)](https://github.com/zh-Spike/github-readme-stats)
