@@ -1,0 +1,102 @@
+{
+  "titleNameMap": {
+    "educationList": "Education",
+    "workExpList": "Research Experience",
+    "projectList": "Engineering experience",
+    "skillList": "Professional Skill",
+    "awardList": "Awards and Honors",
+    "workList": "Contact",
+    "aboutme": "Biography"
+  },
+  "avatar": { "hidden": false },
+  "profile": {
+    "name": "Guoyu Li",
+    "email": "liguoyu21s@mails.ucas.edu.cn",
+    "mobile": "18358293986",
+    "github": "https://github.com/dorapocket",
+    "workExpYear": "",
+    "workPlace": "",
+    "positionTitle": ""
+  },
+  "educationList": [
+    {
+        "edu_time": ["2021.09.01", "current"],
+        "school": "Institute of Computing Technology, Chinese Academy of Science",
+        "major": "Computer Architecture",
+        "academic_degree": "M.S."
+      },
+    {
+      "edu_time": ["2018.09.01", "2021.06.30"],
+      "school": "Hangzhou Dianzi Univercity",
+      "major": "Computer Science",
+      "academic_degree": "B.S."
+    }
+  ],
+  "awardList": [
+    { "award_info": "Outstanding Student , UCAS", "award_time": "2021" },
+    { "award_info": "Outstanding graduates , HDU", "award_time": "2021" },
+    { "award_info": "Provincial Government Scholarship , HDU", "award_time": "2020" },
+    {
+      "award_info": "Outstanding Student Scholarship (4x) , HDU",
+      "award_time": "2018 & 2019 & 2020"
+    },
+    {
+        "award_info": "First Prize in electronics design competition , HDU",
+        "award_time": "2020"
+      }
+  ],
+  "workExpList": [
+  {
+    "company_name": "RISC-V based distributed simulation accelerator ",
+    "department_name": "ICT,CAS",
+    "work_time": ["2022.03", null],
+    "work_desc": "In order to solve the bandwidth limitation problem caused by a PE frequently accessing main memory in \"GPU-like circuit gate-level simulation accelerator\" program."
+  },
+    {
+      "company_name": "GPU-like circuit gate-level simulation accelerator",
+      "department_name": "ICT,CAS",
+      "work_time": ["2021.6", "2022.3"],
+      "work_desc": "Using Xilinx Zynq FPGA, build hardware RTL and write driver for linux, using AXI Bus to control."
+    },
+
+    {
+      "company_name": "Linux minimal system version for wireless screencasting (for edu usage)",
+      "department_name": "HDU",
+      "work_time": ["2021.01", "2021.06"],
+      "work_desc": "Independently design the smallest PCB system based on ARM Cortex-A chip, and develop embedded software and computer applications to achieve screen sharing and conference room management."
+    }
+  ],
+  "skillList": [],
+  "projectList": [
+    {
+      "project_name": "ICTEST - Fault simulation tools",
+      "project_role": "Participant",
+      "project_time": "2021.06 - now",
+      "project_desc": "Written in C++, implementing event-driven fault simulation in DFT stage.",
+    },
+    {
+      "project_name": "FPGA fault simulation accelerator",
+      "project_role": "Leader",
+      "project_time": "2021.06 - now",
+      "project_desc": "In order to realize the scientific research activities to accelerate the simulation of gate-level circuits, Zynq is used for development, and the software and hardware co-design is independently realized and the acceleration effect is obtained to a certain extent. It is still being further improved."
+    },
+    {
+      "project_name": "SaltDog - A paper management App ( self-project )",
+      "project_role": "Leader",
+      "project_time": "2020.8 - now",
+      "project_desc": "A plug-in, extensible research paper management system. It has higher security and a more modular API than Zotero. Self-developed PDF reader that supports editing and PDF exporting. "
+    },
+    {
+        "project_name": "Wechat Miniprogram library ( Intern in Wechat )",
+        "project_role": "Participant",
+        "project_time": "2021.5 - 2021.8",
+        "project_desc": "Linux porting of Wechat Miniprogram base library. It is currently implemented in most IoT devices that support WeChat."
+      }
+  ],
+  "workList": [],
+  "aboutme": {
+    "aboutme_desc": "I am Guoyu Li, now a student from Institute of Computing Technology, Chinese Academy of Science. This is my first year in ICT and I am majoring in computer architecture. I am a self-motivated person, have the ability to proactively identify problems and actively solve them.\nMy research interests include: hardware accelerators design and drivers in operating systems, chip agile design, chip gate-level fault simulation(in DFT).\nIn addition to academics, I love and be proficient in the development of web front-end. There are many open source projects on my Github, and I have also contributed to many open source front-end frameworks.\nIntern at Tencent WeChat Group, responsible for Linux-based WeChat and Linux porting of miniprograms. Also intern in Alipay, responsible for payment business and client development.\nCurrent working on RISC-V based falult simulation acceleration & document structure recognition(which is interested in)"
+  },
+  "theme": { "color": "#2f5785", "tagColor": "#8bc34a" },
+  "template": "template1"
+}
